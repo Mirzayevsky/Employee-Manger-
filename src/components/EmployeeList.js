@@ -18,7 +18,7 @@ const EmployeeList = () => {
     //const handleShowAlert = () =>setShowAlert(true);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [employeesPerPage] = useState(2)
+    const [employeesPerPage] = useState(4)
 
     const handleShowAlert = () => {
         setShowAlert(true);
@@ -29,7 +29,6 @@ const EmployeeList = () => {
 
     useEffect(() => {
         handleClose();
-
         return () => {
             handleShowAlert();
         }

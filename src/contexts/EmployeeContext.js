@@ -22,9 +22,7 @@ useEffect(() => {
 })
 
 
-
 const sortedEmployees = employees.sort((a,b)=>(a.name < b.name ? -1 : 1));
-
 
 
 const addEmployee = (name, email, address, phone) => {
